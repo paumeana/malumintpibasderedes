@@ -590,15 +590,22 @@ Parallax
 
 .slider-btn {
     position: absolute;
-    right: 42%;  /* Ajusta el porcentaje según lo que necesites */
+    right: 41%;  /* Ajusta el porcentaje según lo que necesites */
     top: 80%;    /* Esto lo coloca en el medio vertical */
     transform: translateY(-90%); /* Ajusta para que esté perfectamente centrado en el eje vertical */
     padding: 10px 20px;
-    background-color: #fefefe; /* Personaliza el estilo del botón */
-    color: #989c43;
+    background-color: #989c43; /* Personaliza el estilo del botón */
+    color: #fefefe !important;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+}
+.slider-btn a {
+  color: #fefefe;
+}
+
+.slider-btn a:hover {
+  color: #fefefe;
 }
 
 @media (max-width: 1024px) { /* Ocultar en tablets y móviles */
